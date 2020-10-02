@@ -1,0 +1,62 @@
+Input:
+------
+
+python3 dirBuster.py https://www.github.com/Ajay-Krishna-A/nourish-python wordlist > sample_Output.txt
+
+------------------------------------------------------------------------------------------
+
+Output :
+-------
+
+Checking for valid url...  Done
+Parsing the wordlist ...   Done 
+Total Paths to check :  7136
+
+
+ Beginning scan .... 
+[*] Valid path found :  
+[*] Valid path found :  /
+[*] Valid path found :  
+[*] Valid path found :  actions
+[*] Valid path found :  check
+[*] Valid path found :  check.php
+[*] Valid path found :  community
+[*] Valid path found :  contributors.txt
+[*] Valid path found :  downloads
+[*] Valid path found :  import
+[*] Valid path found :  import.php
+[*] Valid path found :  import/
+[*] Valid path found :  issues
+[*] Valid path found :  labels.rdf
+[*] Valid path found :  network
+[*] Valid path found :  projects
+[*] Valid path found :  releases
+[*] Valid path found :  search
+[*] Valid path found :  search.%EXT%
+[*] Valid path found :  security
+[*] Valid path found :  security.txt
+[*] Valid path found :  security.xml
+[*] Valid path found :  security/
+[*] Valid path found :  tags
+[*] Valid path found :  upload
+[*] Valid path found :  upload.asp
+[*] Valid path found :  upload.aspx
+[*] Valid path found :  upload.cfm
+[*] Valid path found :  upload.htm
+[*] Valid path found :  upload.html
+[*] Valid path found :  upload.php
+[*] Valid path found :  upload.php3
+[*] Valid path found :  upload.shtm
+[*] Valid path found :  upload/
+[*] Valid path found :  upload/1.php
+[*] Valid path found :  upload/b_user.csv
+[*] Valid path found :  upload/b_user.xls
+[*] Valid path found :  upload/loginIxje.php
+[*] Valid path found :  upload/test.php
+[*] Valid path found :  upload/test.txt
+[*] Valid path found :  upload/upload.php
+[*] Valid path found :  wiki
+[*] Valid path found :  wiki/
+
+ Scan complete ...
+
