@@ -1,19 +1,13 @@
 # DirBuster
 
 try:
-    # Import required packages
-
     import sys                  # used to take command line arguments and exit when needed.
     import requests             # used to make HTTP requests
 
-    # Assign arguments to variables
 
     rHost = sys.argv[1]         # remote host <url>
     wordlist = sys.argv[2]      # wordlist <dictionary>
 
-
-
-    # Evaluate the rHost url
 
     print('Checking for valid url...', end=" ")
 
@@ -35,9 +29,6 @@ try:
         print ( "\nError : Cannot reach the rHost ! " )
         sys.exit(1)
 
-
-    # Parsing the wordlist 
-
     try :
 
         print("Parsing the wordlist ... ", end=" ")
@@ -56,7 +47,6 @@ try:
         print('Error : Failed to read Specified file - Wordlist')
         sys.exit(1)
 
-    # checking for the path : function defined.
         
     def checkpath(path):
         
